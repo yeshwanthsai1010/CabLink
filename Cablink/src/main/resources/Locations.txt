@@ -1,0 +1,23 @@
+use yesh;
+create table routes(fromplace varchar(30),toplace varchar(30),distance int not null);
+insert into routes values ('Hyderabad', 'Warangal', 150);
+insert into routes values ('Hyderabad', 'Karimnagar', 170);
+insert into routes values  ('Hyderabad', 'Khammam', 195);
+insert into routes values ('Hyderabad', 'Nizamabad', 175);
+insert into routes values  ('Warangal', 'Nizamabad', 250);
+insert into routes values ('Warangal', 'Karimnagar', 90);
+insert into routes values  ('Warangal', 'Khammam', 120);
+insert into routes values  ('Warangal', 'Hyderabad', 150);
+insert into routes values  ('Karimnagar', 'Nizamabad', 200);
+insert into routes values  ('Karimnagar', 'Khammam', 180);
+insert into routes values  ('Karimnagar', 'Hyderabad', 170);
+insert into routes values  ('Karimnagar', 'Warangal', 90);
+insert into routes values  ('Khammam', 'Hyderabad', 195);
+insert into routes values  ('Khammam', 'Warangal', 120);
+insert into routes values  ('Khammam', 'Karimnagar', 180);
+insert into routes values  ('Khammam', 'Nizamabad', 200);
+insert into routes values  ('Nizamabad', 'Hyderabad', 170);
+insert into routes values  ('Nizamabad', 'Warangal', 250);
+insert into routes values  ('Nizamabad', 'Karimnagar', 200);
+insert into routes values  ('Nizamabad', 'Khammam', 200);
+

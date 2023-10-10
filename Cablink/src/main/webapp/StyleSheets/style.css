@@ -1,0 +1,62 @@
+div.passenger-login{
+	
+	display:flex;
+	
+	
+}
+h1{
+	
+	display: flex;
+	justify-content: space-between;
+	 
+}
+header{
+	margin:20px;
+	padding:20px;
+	color:black;
+	margin: auto;
+	background-color: rgba(3,252,155,0.6);
+	padding: 10px;
+}
+body{
+	background-image: linear-gradient(to right,yellow, #27373b,yellow, #27373b,yellow, #27373b,yellow, #27373b,yellow, #27373b);
+}
+
+div.container{
+	color:black;
+	margin: auto;
+	width : 50%;
+	background-color: rgba(3,252,155,0.6);
+	padding: 10px;
+}
+
+nav{
+	margin:20px;
+}
+/* CSS */
+.button-52 {
+	color:antiquewhite;
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+
+.button-52:hover {
+  top: 0px;
+  left: 0px;
+  background-color: black;
+
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
